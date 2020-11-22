@@ -11,14 +11,14 @@ $obs = $_POST['observaciones'];
 
 
 
-$nombre = "FrCodes";
+$nombre = "agregarNombreVisible";
 
-$email = "no-reply@mg.code.com";
+$email = "email a mostrar cualquiera";
 
 
-$asunto = "Nuevo mensaje desde FrCodes";
+$asunto = "Nuevo mensaje desde cualquier";
 
-$mensaje = "Nuevo mensaje desde FrCodes";
+$mensaje = "Nuevo mensaje desde donde ";
 
 
 
@@ -26,8 +26,8 @@ $mensaje = "Nuevo mensaje desde FrCodes";
 
 // Datos de la cuenta de correo utilizada para enviar v�a SMTP
 $smtpHost = "smtp.gmail.com.";  // Dominio alternativo brindado en el email de alta 
-$smtpUsuario = "PruebasDesarrolloEg@gmail.com";  // Mi cuenta de correo
-$smtpClave = "pruebas123456789";  // Mi contrase�a
+$smtpUsuario = "tu correo";  // Mi cuenta de correo
+$smtpClave = "tu clave";  // Mi contrase�a
 
 
 
@@ -48,17 +48,17 @@ $mail->Password = $smtpClave;
 $mail->From = $email; // Email desde donde env�o el correo.
 $mail->FromName = $nombre;
 
-$mail->AddAddress('Franco9bernal@gmail.com');
+$mail->AddAddress('a donde enviar');
 //$mail->AddAddress('correo');
 
-$mail->Subject = "Nuevo mensaje desde FrCodes"; // Este es el titulo del email.
+$mail->Subject = "Nuevo mensaje desde "; // Este es el titulo del email.
 $mensajeHtml = nl2br($mensaje);
 $mail->Body = "
 <html> 
 
 <body> 
 
-<h3>Nuevo mensaje desde FrCodes</h3>
+<h3>Nuevo mensaje desde </h3>
 
 <p>Nombre:  {$nombreCliente} </p>
 <p>Telefono:  {$telefono} </p>
