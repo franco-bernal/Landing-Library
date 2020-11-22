@@ -29,16 +29,16 @@
     padding: 0px;
 }
 
+/*to erase->*/
 h1 {
     color: var(--letras);
     font-size: 40px;
 }
 
-a {}
 
 .inicio {
     width: 100%;
-    height: 500px;
+    height: 80vh;
     background-image: url(../img/wallpaper-min.jpg);
     background-position-y:0px;
 }
@@ -59,4 +59,9 @@ a {}
 
 .sec-form{
     padding:0px 4vw 0px 4vw;
+}
+
+.logotip{
+    width: 100%;
+    height: auto;
 }

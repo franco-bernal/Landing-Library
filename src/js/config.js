@@ -8,7 +8,7 @@ var srcHead = '<link rel="stylesheet" href="src/css/reset.css">' +
     '<link rel="stylesheet" href="src/css/src.css">' +
     '<link rel="stylesheet" href="src/css/inputs.css">' +
     '<link rel="stylesheet" href="src/css/scroll.css">' +
-    '<link rel="shortcut icon" href="src/img/letra-s.jpg" type="image/x-icon">';
+    '<link rel="shortcut icon"class="shortcut" href="src/img/letra-s.jpg" type="image/x-icon">';
 
 var frameworksCss = '<link rel="stylesheet" href="src/css/bulma.min.css">';
 
@@ -19,6 +19,7 @@ var srcBody = ['src/js/global/jquery-3.5.1.min.js',
     'src/js/global/resources.js',
     'src/js/global/SinRedire.js',
     'src/js/apply.js',
+    'src/js/src-web.js',
 ];//agregar con una coma
 
 

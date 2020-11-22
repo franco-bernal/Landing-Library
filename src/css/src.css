@@ -9,7 +9,7 @@
 }
 
 .rainbow::before {
-    content: 'holaaaaaaaaaaaaaaaaa';
+    content: '';
     position: absolute;
     z-index: -2;
     left: -50%;

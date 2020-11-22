@@ -148,6 +148,6 @@ function wallparalax(elem) {
     var barra = $(window).scrollTop();
     var posicion = (barra * 0.20);
     $(elem).css({
-        'background-position': '0 -' + posicion + 'px'
+        'background-position': '0 ' + posicion + 'px'
     });
 }
