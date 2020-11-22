@@ -1,0 +1,194 @@
+html {
+    height: 100%;
+    width: 100%;
+    max-zoom: 120%;
+    min-zoom: 80%;
+    color: black !important;
+    background-color: black;
+}
+
+body {
+    /*
+     padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    */
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+input {
+    outline: none;
+}
+
+.hero {
+    height: 100%;
+    width: 100%;
+}
+
+.hero-head {}
+
+.hero-body {
+    height: auto;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.columns {
+    padding: 0px;
+    margin: 0px;
+    height: auto;
+    width: auto;
+}
+
+.column {
+    padding: 0px;
+    margin: 0px;
+    height: auto;
+}
+
+.hero-section {
+    width: auto;
+    height: auto;
+}
+
+.centrar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centrar-full {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-class {
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    outline: none !important;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.m {
+    border: 3px solid red;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: 0.1vw;
+}
+
+h2 {
+    font-size: 3vw;
+    line-height: 3.1vw;
+}
+
+h3 {
+    font-size: 40px;
+    line-height: 40px;
+}
+
+h4 {
+    font-size: 24px;
+    line-height: 24px;
+}
+
+h6 {
+    font-size: 19px;
+    line-height: 19px;
+}
+
+.btn-create {
+    border: 1px solid inherit;
+    border-radius: 0 100px 100px 100px;
+    padding: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.img-white {
+    /*Cambio de color a blanco*/
+    filter: hue-rotate(0deg);
+    -webkit-filter: hue-rotate(90deg) brightness(500%);
+}
+
+.ctd {
+    text-align: center;
+}
+
+.jtd {
+    text-align: justify;
+}
+
+.itd {
+    text-align: left;
+}
+
+@media(max-width:767px) {
+    .fl {
+        float: left;
+    }
+    .fr {
+        float: right;
+    }
+}
+
+@media(max-width:767px) {
+    h1 {
+        /*ANTES 60PX*/
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: 0.1vw;
+    }
+    h2 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    h3 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    h4 {
+        font-size: 17px;
+        line-height: 17px;
+    }
+    h6 {
+        font-size: 19px;
+        line-height: 19px;
+    }
+    .centrar-m {
+        display: block;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .ctm {
+        text-align: center;
+    }
+    .jtm {
+        text-align: justify;
+    }
+    .itm {
+        text-align: left;
+    }
+    .btn-a {
+        padding: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,62 @@
+:root {
+    --letras: rgb(255, 255, 255);
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    height: auto;
+}
+
+.header .columns {
+    height: auto;
+    background-color: rgba(52, 0, 136, 0.322) !important;
+}
+
+.header .column {
+    height: auto !important;
+}
+
+.header a {
+    color: var(--letras);
+    text-transform: uppercase;
+}
+
+.header .logo {
+    height: 40px;
+    width: auto;
+    padding: 0px;
+}
+
+h1 {
+    color: var(--letras);
+    font-size: 40px;
+}
+
+a {}
+
+.inicio {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/wallpaper-min.jpg);
+    background-position-y:0px;
+}
+
+.global {
+    background-color: #00367e;
+    color: var(--letras);
+}
+
+/**/
+
+.caja {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 2px !important;
+}
+
+.sec-form{
+    padding:0px 4vw 0px 4vw;
+}
