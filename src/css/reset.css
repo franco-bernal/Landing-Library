@@ -3,11 +3,8 @@ html {
     width: 100%;
     max-zoom: 120%;
     min-zoom: 80%;
-    color: black !important;
     background-color: black;
 }
-
-
 
 body {
     /*

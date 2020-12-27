@@ -1,5 +1,5 @@
 :root {
-    --letras: rgb(255, 255, 255);
+    --letras: rgb(58, 58, 58);
 }
 
 .header {
@@ -11,7 +11,7 @@
 
 .header .columns {
     height: auto;
-    background-color: rgba(52, 0, 136, 0.322) !important;
+    background-color: #0364527e !important;
 }
 
 .header .column {
@@ -19,33 +19,42 @@
 }
 
 .header a {
-    color: var(--letras);
+    color: white;
     text-transform: uppercase;
 }
 
 .header .logo {
-    height: 40px;
+    height: 42px;
     width: auto;
     padding: 0px;
 }
 
+.sombra {
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.22);
+    width: 100%;
+    height: 100%;
+    transform: translateZ(30px) scale(0.940) !important;
+}
+
 /*to erase->*/
+
 h1 {
     color: var(--letras);
     font-size: 40px;
 }
 
-
 .inicio {
     width: 100%;
     height: 80vh;
     background-image: url(../img/wallpaper-min.jpg);
-    background-position-y:0px;
+    background-position-y: 0px;
+    color: rgb(233, 233, 233) !important;
 }
 
 .global {
-    background-color: #00367e;
-    color: var(--letras);
+    background-color: #ffffff;
 }
 
 /**/
@@ -57,11 +66,24 @@ h1 {
     padding: 2px !important;
 }
 
-.sec-form{
-    padding:0px 4vw 0px 4vw;
+.sec-form {
+    padding: 0px 4vw 0px 4vw;
 }
 
-.logotip{
-    width: 100%;
-    height: auto;
+.img-perfil {
+    width: 100% !important;
+    height: 200px !important;
+    margin-top: -200px;
+    background-image: url(../img/curva-640w.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+}
+
+.img-perfil img {
+    width: 200px !important;
+    height: 200px !important;
+    margin-left: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
 }
